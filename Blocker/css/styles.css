@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e7e7;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #007BFF;
+    color: #e7e7e7;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #e7e7e7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #007BFF;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #007BFF;
+    color: #e7e7e7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #007BFF;
+    background-color: #e7e7e7;
+}
+
+.product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    background-color: black;
+    color: #e7e7e7;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: black;
+}
+
+.container1 {
+    max-width: 400px;
+    max-height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #e7e7e7;
+}
+
+.user-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.white-rectangle {
+    display: inline-block;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+}
+
+.user-buttons a {
+    color: W;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    margin: 5px;
+}
+
+.buy-button {
+    background-color: #007BFF;
+    color: #e7e7e7;
+    border: 2px solid #007BFF; /* Agregar contorno alrededor de los botones */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: black;
+}
+/* Estilos para los botones "Iniciar Sesión" y "Registrarte" */
+.custom-button {
+    display: inline-block;
+    background-color: #28A745; /* Nuevo color de relleno (verde) */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #1E7E34; /* Nuevo color de relleno (verde oscuro) al pasar el cursor */
+}
+
+/* Estilos para el botón "Comprar" */
+.buy-button {
+    display: block;
+    background-color: #28A745; /* Nuevo color de relleno (verde) */
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #1E7E34; /* Nuevo color de relleno (verde oscuro) al pasar el cursor */
+}
+
+.container img {
+    max-width: 50%; /* Ajusta el tamaño de la imagen */
+}
+.logo2{
+    max-width: 100px; /* Tamaño de la imagen del logo */
+    margin-right: 20px; /* Espacio entre la imagen y los enlaces del menú */
+}
+
+nav {
+    background-color: #e7e7e7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #007BFF;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #007BFF;
+    color: #e7e7e7;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #007BFF;
+    background-color: #e7e7e7;
+    
+}
+
+/* Pantallas medianas (de 601px a 992px de ancho) */
+@media (min-width: 601px) and (max-width: 992px) {
+}
+
+/* Pantallas grandes (a partir de 993px de ancho) */
+@media (min-width: 993px) {
+    /* Agrega aquí los estilos que quieras modificar para pantallas grandes */
+    /* Asegúrate de que el diseño se vea bien en pantallas de escritorio */
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 600px) {
+    /* Modificamos el tamaño de fuente para pantallas pequeñas */
+    body {
+        font-size: 14px;
+    }
+
+    /* Ajustamos el tamaño del logo para pantallas pequeñas */
+    .logo {
+        max-width: 80px;
+        margin-right: 10px;
+    }
+
+    /* Modificamos el espaciado de los enlaces del menú */
+    nav a {
+        padding: 5px;
+    }
+
+    /* Centramos los enlaces del menú verticalmente */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Ajustamos el padding del encabezado para pantallas pequeñas */
+    header {
+        padding: 10px 0;
+    }
+
+    /* Ajustamos el padding del contenido para pantallas pequeñas */
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Estilos específicos para tablets */
+@media (min-width: 601px) and (max-width: 992px) {
+    /* Modificamos el tamaño de fuente para pantallas medianas */
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Estilos específicos para pantallas de escritorio */
+@media (min-width: 993px) {
+    /* Modificamos el tamaño de fuente para pantallas grandes */
+    body {
+        font-size: 18px;
+    }
+
+    /* Ajustamos el tamaño del logo para pantallas grandes */
+    .logo {
+        max-width: 120px;
+        margin-right: 30px;
+    }
+
+    /* Modificamos el espaciado de los enlaces del menú */
+    nav a {
+        padding: 10px;
+    }
+}
